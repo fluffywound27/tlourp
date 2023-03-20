@@ -1,0 +1,13 @@
+.server-info h2, .server-info p {
+  color: rgb(20,20,20);
+  font-weight: bold;
+}
+.platforms {
+  display: flex;
+  align-items: center;
+}
+.platforms div {
+  padding: 30px;
+  font-size: 50px;
+  font-weight: bold;
+}

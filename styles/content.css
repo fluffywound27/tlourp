@@ -1,0 +1,107 @@
+.content {
+  background-color: rgb(25, 25, 25);
+  width: 80%;
+  margin: 0 auto;
+  color: rgb(250 204 94);
+  display: grid;
+  grid-template-columns: 4fr 5fr;
+  padding: 50px 70px;
+}
+@media (max-width: 1000px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  text-align: center;
+  padding: 0px 0px 50px 0px;
+}
+.gallery {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 30px;
+  color: white;
+  font-size: 25px;
+  text-shadow: 5px 4px 4px rgba(20, 20, 20, 0.9);
+}
+.gallery img {
+  width: 100%;
+  object-fit: fill;
+  min-width: 400px;
+}
+.map, 
+.town {
+  position: relative;
+}
+.map {
+  margin-right: 60px;
+}
+.town {
+  margin-left: 60px;
+}
+.map h3 {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: -40px;
+}
+.town h3 {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: -40px;
+}
+
+.social-bar {
+  background-color: rgb(250 204 94);
+  text-align: center;
+}
+
+.social-bar p {
+  padding: 30px 0 0px 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin: auto;
+  width: 30%;
+  min-width: 500px;
+}
+.social-bar button {
+  color: rgb(250 204 94);
+  background-color: rgb(25, 25, 25);
+  border: none;
+  padding: 20px;
+  margin: 20px auto;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: 0.15s;
+}
+
+.social-bar button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.social-bar button:active {
+  opacity: 0.5;
+}
+
+.social-platforms {
+  display: flex;
+  justify-content: center;
+}
+.social-platforms div{
+  padding: 50px;
+  background-color: rgb(25, 25, 25);
+  margin-bottom: 20px;
+  color: white;
+  border-radius: 30px;
+}

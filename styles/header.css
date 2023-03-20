@@ -1,0 +1,57 @@
+.header {
+  width: 100%;
+  background-image: url(../pictures/DayZ_Promoart_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  grid-template-rows: 280px 340px;
+}
+
+.main-header {
+  display: flex;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.logo-container img {
+  padding: 20px;
+  width: 100%;
+  min-width: 350px
+}
+.nav-bar {
+  flex: 3;
+  display: flex;
+  justify-content: right;
+  align-items: end;
+}
+.nav-bar button {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 6px 1.6%;
+  border-style: none;
+  background: none;
+  color: rgb(250 204 94);
+  text-shadow: 5px 4px 4px rgba(20, 20, 20, 0.9);
+  transition: 0.2s;
+}
+.nav-bar button:hover {
+  background-color: rgba(20, 20, 20, 0.5);
+  color: rgb(255, 237, 195);
+  cursor: pointer;
+}
+
+.nav-bar button:active {
+  background-color: rgba(20, 20, 20, 0.9);
+  color: white;
+}
+
+.secondary-header {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  font-size: 32px;
+  text-shadow: 5px 4px 4px rgba(20, 20, 20, 0.9);
+}

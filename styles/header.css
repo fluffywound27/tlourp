@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-position: center;
   display: grid;
-  grid-template-rows: 280px 340px;
+  grid-template-rows: 300px 380px;
 }
 
 .main-header {
@@ -28,17 +28,17 @@
   align-items: end;
 }
 .nav-bar button {
+  background-color: rgba(20,20,20, 0.4);
   font-size: 28px;
   font-weight: bold;
   padding: 6px 1.6%;
   border-style: none;
-  background: none;
   color: rgb(250 204 94);
   text-shadow: 5px 4px 4px rgba(20, 20, 20, 0.9);
   transition: 0.2s;
 }
 .nav-bar button:hover {
-  background-color: rgba(20, 20, 20, 0.5);
+  background-color: rgba(20, 20, 20, 0.6);
   color: rgb(255, 237, 195);
   cursor: pointer;
 }
@@ -48,10 +48,35 @@
   color: white;
 }
 
+.nav-bar .gradient {
+  background: none;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(20, 20, 20, 0.4) 15%);
+}
+.nav-bar .gradient:hover {
+  background-color: rgba(20, 20, 20, 0.3);
+  color: rgb(255, 237, 195);
+  cursor: pointer;
+}
+
+.nav-bar .gradient:active {
+  background-color: rgba(20, 20, 20, 0.8);
+  color: white;
+}
+.nav-bar .join-button { 
+  background-color: rgba(20, 20, 20, .8);
+  padding: 6px 5%;
+  font-size: 28px;
+  color: rgb(250 204 94);
+}
+
 .secondary-header {
   display: flex;
   justify-content: center;
   align-items: end;
   font-size: 32px;
-  text-shadow: 5px 4px 4px rgba(20, 20, 20, 0.9);
+}
+
+.secondary-header h1 {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(20, 20, 20, 0.8) 50%, rgba(255, 255, 255, 0) 100%);
+  padding: 0 35%;
 }

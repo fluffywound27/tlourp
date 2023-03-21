@@ -1,7 +1,7 @@
 .content {
   background-color: rgb(25, 25, 25);
   width: 80%;
-  margin: 0 auto;
+  margin: 0px auto;
   color: rgb(250 204 94);
   display: grid;
   grid-template-columns: 4fr 5fr;
@@ -52,12 +52,16 @@
   z-index: 1;
   top: 0;
   right: -40px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(20, 20, 20, .8) 50%);
+  padding-left: 200px;
 }
 .town h3 {
   position: absolute;
   z-index: 1;
   bottom: 0;
   left: -40px;
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(20, 20, 20, .8) 50%);
+  padding-right: 200px;
 }
 
 .social-bar {
@@ -101,7 +105,7 @@
 .social-platforms div{
   padding: 50px;
   background-color: rgb(25, 25, 25);
-  margin-bottom: 20px;
+  margin: 20px 0;
   color: white;
   border-radius: 30px;
 }
